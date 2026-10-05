@@ -1,0 +1,16 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "daaf"
+dynamic = ["version"]
+description = "Decision-as-a-function: a typed Python function with a docstring, answered by Laya"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "Apache-2.0"
+dependencies = ["laya>=0.3.27"]
+keywords = ["laya", "decision", "classification", "llm", "decorator"]
+
+[tool.hatch.version]
+path = "daaf.py"
