@@ -14,3 +14,6 @@ keywords = ["laya", "decision", "classification", "llm", "decorator"]
 
 [tool.hatch.version]
 path = "daaf.py"
+
+[project.urls]
+Homepage = "https://github.com/LilHenri75/daaf"
